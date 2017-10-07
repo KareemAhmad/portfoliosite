@@ -1,0 +1,199 @@
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+/* Basic Page Styling */
+html, body {
+  font-family: "system";
+  height: 100%;
+  color: #666;
+  background: #F7DC6F;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* Overriding Bootstrap Button Styles */
+.btn-outline-primary {
+  color: #F7DC6F;
+  font-weight: 600;
+  border-color: #F7DC6F;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open > .dropdown-toggle.btn-outline-primary {
+  background: #F7DC6F;
+  border-color: #F7DC6F;
+}
+
+/* Header Styling */
+.header {
+  background: #979A9A;
+  color: #fff;
+  margin-top: 20px;
+}
+.header .social {
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+.header .social a {
+  display: inline-block;
+  text-align: center;
+  padding-top: 2px;
+  width: 32px;
+  height: 32px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.header .action {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+/* Sticky Navbar */
+.sticky.is-sticky {
+  background: #F7DC6F;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* Section Styling */
+.section {
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  padding: 45px;
+  background: #fff;
+  margin-bottom: 45px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* Timeline Styling */
+.timeline {
+  border-left: 3px solid #F7DC6F;
+  border-radius: 2px;
+  position: relative;
+  padding: 0 30px;
+  margin-left: 220px;
+}
+.timeline .item {
+  position: relative;
+  margin-bottom: 45px;
+}
+.timeline .item:last-child {
+  margin-bottom: 0;
+}
+.timeline .item:before {
+  content: "";
+  position: absolute;
+  left: -43px;
+  top: 0;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #F7DC6F;
+}
+.timeline .item:after {
+  content: "";
+  position: absolute;
+  left: -37px;
+  top: 6px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #F7DC6F;
+  z-index: 10;
+}
+.timeline .job-title {
+  position: absolute;
+  left: -250px;
+  top: 0;
+}
+.myPhoto {
+  height: 300px;
+  width: 50%;
+}
+.languageIcons {
+  margin-top: 100px;
+}
+.divider {
+  border: 1px solid black;
+  width: 75%;
+  margin: 100px 0 0 12.5%;
+}
+.languageIcons h5 {
+  margin-bottom: 50px;
+}
+.languageIcons img {
+  height: 100px;
+  width: 20%;
+  margin: 0 0% 30px 10%;
+}
+#section-3 h4, #section-3 p, #section-3 a {
+  color: #F7DC6F;
+  font-size: 20px;
+}
+.card1, .card2, .card3 {
+  width: 31%;
+  height: 350px;
+  margin-right: 2%;
+}
+.card1 {
+  background-image: url('../images/carousel.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+}
+.card2 {
+  background-image: url('../images/calculator.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+}
+#card2 h4, #card2 p, #card2 a {
+  color: black;
+}
+
+.card3 {
+  background-image: url('../images/drag-game.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+}
+#card3 h4, #card3 p, #card3 a {
+  color: black;
+}
